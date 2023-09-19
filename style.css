@@ -1,0 +1,180 @@
+
+ body{
+    height: 100vh;
+    width: 100%;
+ }
+ .navigation {
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    outline: 1px red solid;
+    justify-content:space-between;
+    align-items: center;
+ }
+
+.nav-links-left{
+    display:flex;
+    outline:1px blue solid;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    
+    height: 50px;
+     list-style: none;
+ 
+}
+
+.nav-links-left li a {
+    text-decoration: none;
+}
+
+.nav-links-right{
+   display: flex;
+   outline:1px blue solid;
+   justify-content: space space-between;
+   padding-left: 3vw;
+   padding-right: 3vw;
+
+}
+
+header{
+    outline: 2px red solid;
+    height: 65vh;
+}
+
+.text-box{
+    width: 100%;
+    height: 40vh;
+    outline: 1px solid blue;
+    background-image: url(./assets/ilya-pavlov-OqtafYT5kTw-unsplash.jpg) ;
+}
+
+.text-box div{
+    outline: 1px green solid;
+    width: 30vw;
+    padding: 50px;
+    background-color: white;
+    position: relative;
+    top: 90px; left: 70px;   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.image-changer{
+    display: flex;
+    justify-content: center;
+    outline: 1px green solid;
+}
+.image-changer div {
+    margin: 10px;
+    outline: 1px green solid;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    outline: red solid 1px;
+    height: 15vh;
+}
+
+.products div{
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+ 
+   
+}
+
+.products div a {
+    color: blue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main{
+   width: 100%;
+    outline: 2px red solid;
+    height: 165vh;
+}
+
+.main-cards   {
+    outline: 3px blue solid;
+    display: flex;
+    justify-content: space-around;
+  
+
+}
+
+.main-cards div {
+    outline: 2px green solid;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 20px;
+    
+    
+}
+
+.main-cards div a {
+    text-decoration: none;
+    color: blue;
+}
+
+.text-box2{
+    width: 95%;
+    margin: 50px;
+    height: 40vh;
+    outline: 1px solid blue;
+    background-image: url(./assets/ilya-pavlov-OqtafYT5kTw-unsplash.jpg) ;
+}
+
+.text-box2 div{
+    outline: 1px green solid;
+    width: 30vw;
+    padding: 50px;
+    background-color: white;
+    position: relative;
+    top: 200px; left: 1000px;   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+    .main-final {
+        display: flex;
+        justify-content: flex-start;
+        outline: 1px green solid;
+        outline: 1px red solid;
+    }
+
+    .main-final ul {
+        display: flex;
+        outline: 1px red solid;
+    }
+    .main-final ul li {
+        padding: 20px;
+       list-style: none;
+     
+    }
+    footer {
+        outline: green solid 10px;
+        display: flex;
+    
+    }
+
+    footer ul {
+     padding: 20px;
+     margin: 50px;
+     list-style: none;
+    }
+
+    footer ul li {
+     color: grey;
+     padding: 10px;
+    }
+
+    .li-header {
+     font-weight: 900;
+     padding:20px;
+    }
